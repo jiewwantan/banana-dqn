@@ -90,7 +90,7 @@ Similar to the DQN Nature paper, "Human-level control through deep reinforcement
 
 Fully connected layer 1: with input = 37 state spaces and output = 128 state spaces  
 Fully connected layer 2: with input = 128 and output = 64  
-Fully connected layer 3: with input = 64 and output = 4, (for each of the 4 actions)  
+Fully connected layer 3: with input = 64 and output = 4 (for each of the 4 actions)  
 
 Parameters used in the DQN learning algorithm:  
 
