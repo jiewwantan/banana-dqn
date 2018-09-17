@@ -53,6 +53,8 @@ Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/
 
 Unzipping will create another Banana_xxxx folder. For example, if the Linux Banana environment is downloaded, <mark>Banana_Linux</mark> will be created. 
 
+Run p1_navigation/report.ipynb
+
 
 ```python
 
