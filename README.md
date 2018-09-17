@@ -31,7 +31,7 @@ Python 3.6 is required. The program requires PyTorch, the ML-Agents toolkit, and
 
 ```git clone https://github.com/udacity/deep-reinforcement-learning.git  
 cd deep-reinforcement-learning/python  
-pip install .```
+pip install .'''
 
 Run the following to create drlnd kernel in ipython so that the right unity environment is loaded correctly  
 <mark>python -m ipykernel install --user --name drlnd --display-name "drlnd"</mark>
