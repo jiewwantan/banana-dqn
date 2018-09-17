@@ -88,16 +88,16 @@ The state space has `37` dimensions and contains the agent's velocity, along wit
 
 Similar to the DQN Nature paper, "Human-level control through deep reinforcement learning", the adopted learning algorithm is a vanilla Deep Q Learning. However, fully connected neural layer is used instead of convolutional neural network since the input vector is state spaces instead of image: 
 
-Fully connected layer 1: with input = 37 state spaces and output = 128 state spaces
-Fully connected layer 2: with input = 128 and output = 64
-Fully connected layer 3: with input = 64 and output = 4, (for each of the 4 actions)
+Fully connected layer 1: with input = 37 state spaces and output = 128 state spaces  
+Fully connected layer 2: with input = 128 and output = 64  
+Fully connected layer 3: with input = 64 and output = 4, (for each of the 4 actions)  
 
-Parameters used in DQN algorithm:
+Parameters used in DQN algorithm:  
 
-Maximum steps per episode: 1000
-Starting epsilion: 1.0
-Ending epsilion: 0.01
-Epsilion decay rate: 0.999, 0.995, 0.996, 0.9, 0.8 were tried. 
+Maximum steps per episode: 1000  
+Starting epsilion: 1.0  
+Ending epsilion: 0.01  
+Epsilion decay rate: 0.999, 0.995, 0.996, 0.9, 0.8 were tried.   
 
 ### The DQN Agent
 
