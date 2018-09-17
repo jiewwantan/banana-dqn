@@ -39,7 +39,7 @@ pip install .</mark>
 
 ## Getting Started
 
-Place <mark>Navigation.ipynb</mark> in the folder <mark>p1_navigation/</mark> together with the following two files:
+Place <mark>report.ipynb</mark> in the folder <mark>p1_navigation/</mark> together with the following two files:
 
 1. dqn_agent.py - contains the DQN agent code. 
 2. model.py - contains neural network class for used as Q function
@@ -51,9 +51,16 @@ Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana
 Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)  
 Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)  
 
-Unzipping will create another Banana_xxxx folder. For example, if the Linux Banana environment is downloaded, <mark>Banana_Linux</mark> will be created. 
+Choose the environment suitable for your machine. Unzipping will create another Banana_xxxx folder. For example, if the Linux Banana environment is downloaded, <mark>Banana_Linux</mark> will be created. 
 
 Run p1_navigation/report.ipynb
+
+Enter the right path for the Unity Banan environment in report.ipynb. For example for a 64-bit Linux machine: 
+env = UnityEnvironment(file_name="../Banana_Linux/Banana.x86_64")
+
+Run the remaining cell as ordered in report.ipynb to train the DQN agent. 
+
+
 
 
 ```python
