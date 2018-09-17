@@ -147,11 +147,11 @@ def dqn(agent, n_episodes=5000, max_t=1000, eps_start=1.0, eps_end=0.01, eps_dec
 
 ## The Results
 
-### The Untrained Agent Performance
+### The Untrained Agent's Performance
 
 ![untrained agent](untrained_agent.gif)
 
-### The Trained Agent Performance
+### The Trained Agent's Performance
 
 ![trained agent](trained_agent.gif)
 
