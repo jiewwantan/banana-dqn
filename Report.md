@@ -370,9 +370,9 @@ plt.show()
 
 ## Result Summary and Future work
 
-By changing the reward decay rate, a change of training time required to solve the problem is observed. The lower the decay, the faster it is the solution.  However, higher fluctuation of average score is also observed. I realized to balance training time and lower fluctuation of score fluctuation, the decay rate of 0.995 looks optimum. Also, I have tried amending the average score threshold to 15 and it is achievable within reasonable time period under 0.8 decay rate. 
+By changing the reward decay rate, a change of training time used is observed. The lower the decay rate, the faster it is the solution.  However, higher fluctuation of average score is also observed. To balance training time and lower score fluctuation, I realized the decay rate of 0.995 appears to be optimum. Also, I have tried amending the average score threshold to 15 and it is achievable within reasonable time period under 0.8 decay rate. 
 
-To pickup more yellow bananas and achieve higher score, I suggest using a convolutional neural network DQN with Learning from pixels. The other DQN models mentioned can also be the learning algorithm worthy for trial. 
+To pick up more yellow bananas and achieve higher score, I suggest using a convolutional neural network DQN with Learning from pixels. The other DQN models mentioned in the course are potential better learning algorithms especially when state spaces increases. 
 
 1. Double Deep Q-learning
 2. Dueling Deep Q-learning
