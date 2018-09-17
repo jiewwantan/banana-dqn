@@ -29,7 +29,7 @@ The environment has 37 state spaces for the agent to operate in. There are 4 dis
 
 Python 3.6 is required. The program requires PyTorch, the ML-Agents toolkit, and a few more Python packages required to complete the project.
 
-<mark>git clone https://github.com/udacity/deep-reinforcement-learning.git
+<mark>git clone https://github.com/udacity/deep-reinforcement-learning.git  
 cd deep-reinforcement-learning/python
 pip install .</mark>
 
