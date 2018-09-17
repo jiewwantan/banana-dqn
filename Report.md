@@ -92,12 +92,12 @@ Fully connected layer 1: with input = 37 state spaces and output = 128 state spa
 Fully connected layer 2: with input = 128 and output = 64  
 Fully connected layer 3: with input = 64 and output = 4, (for each of the 4 actions)  
 
-Parameters used in DQN algorithm:  
+Parameters used in the DQN learning algorithm:  
 
 Maximum steps per episode: 1000  
 Starting epsilion: 1.0  
 Ending epsilion: 0.01  
-Epsilion decay rate: 0.999, 0.995, 0.996, 0.9, 0.8 were tried.   
+Epsilion decay rate: 0.999, 0.995, 0.996, 0.9, 0.8 were tried as shown below.   
 
 ### The DQN Agent
 
